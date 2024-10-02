@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+
+    namespace = "dev.felipheallef.app_installer"
     compileSdkVersion 33
 
     defaultConfig {
